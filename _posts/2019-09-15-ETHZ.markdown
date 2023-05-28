@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "ETH Zurich"
+image: /images/ETH.png
+date:   2020-09-10 22:20:59 +00:00
+categories: ETH_Zurich
+type: coursework
+author: "Elliot Epstein"
+subtitle: "Selected Courses Taken at ETH Zurich"
+paper: 
+---
+- Probability Theory
+- Programming Techniques for Scientific Simulations
+- Electrodynamics
+- Mathematical Foundations for Finance
+- Geophysical Fluid Dynamics

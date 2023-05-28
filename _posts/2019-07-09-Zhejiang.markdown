@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Image Semantic Segmentation based on Deep Learning"
+date:   2019-08-28 22:20:59 +00:00
+image: /images/Zhejiang.png
+categories: "Zhejiang_University"
+author: "Elliot Epstein"
+subtitle: "Image Semantic Segmentation based on Deep Learning" 
+poster: 
+paper: 
+---
+Work done with <a href="https://se.linkedin.com/in/filipchristiansen"> Filip Christiansen</a>, we spent time over the summer of 2019 on a research visit at <a href="https://en.wikipedia.org/wiki/Zhejiang_University">Zhejiang University</a> in Hangzhou, China. We apply the MASK-RCNN model to a new hand curated dataset using Tensorflow.

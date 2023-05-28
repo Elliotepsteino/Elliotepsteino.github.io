@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Simple Hardware-Efficient Long Convolutions for Sequence Modeling"
+date:   2023-02-03 22:21:59 +00:00
+image: /images/header.png
+categories: research
+author: "Elliot Epstein"
+venue: "ICML"
+authors: "<strong>Elliot L. Epstein*</strong>, Dan Y. Fu*, Eric Nguyen, Armin W. Thomas, Michael Zhang, Tri Dao, Atri Rudra, Christopher Ré "
+subtitle: "Simple Hardware-Efficient Long Convolutions for Sequence Modeling"
+arxiv: https://arxiv.org/abs/2302.06646
+code: https://github.com/Elliotepsteino/safari
+blog_post: https://hazyresearch.stanford.edu/blog/2023-02-15-long-convs
+---
+
+We study what the most simple sequence model that can match or exceed transformers on a range of task with subquadratic scaling in the sequence length. 

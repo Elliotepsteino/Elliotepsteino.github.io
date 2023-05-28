@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Value Iteration for Markov Decision Processes"
+date:   2022-03-06 22:20:59 +00:00
+image: /images/CME307.png
+categories: Stanford
+author: "Elliot Epstein"
+subtitle: "Value Iteration for Markov Decision Processes"
+paper: 
+course: "CME 307: Optimization"
+---
+We formulate an MDP problem as a linear program, and prove a contraction result.
+We then implement extensions of value and policy iteration and analyse the convergence rate, and empirically verify our finding on a simple tic-tac-toe implementation.
+
+[CME 307 Paper](/pdfs/CS224N_Epstein.pdf){:target="_blank"}

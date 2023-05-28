@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Robust Domain Adaptation by Adversarial Training and Classification"
+date:   2022-03-06 22:20:59 +00:00
+image: /images/CS224N.png
+categories: Stanford
+author: "Elliot Epstein"
+subtitle: "Robust Domain Adaptation by Adversarial Training and Classification"
+paper: /pdfs/CS224N_Epstein.pdf
+course: "CS224N: Natural Language Processing"
+---
+ Work with <a href="https://www.linkedin.com/in/nicolas-aagnes">Nicolas Ågnes</a>, we extend a method to train a question answering model on out of distribution data by new data augmentation techniques and add a classifier module to determine if a question is answerable or not.
+
+[CS224N Paper](/pdfs/CS224N_Epstein.pdf){:target="_blank"}

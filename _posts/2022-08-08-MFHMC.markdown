@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Multi-Fidelity Hamiltonian Monte Carlo"
+date:   2020-08-28 22:20:59 +00:00
+image: /images/MFHMC.png
+categories: Stanford
+author: "Elliot Epstein"
+subtitle: "Multi-Fidelity Hamiltonian Monte Carlo" 
+poster: /pdfs/psaap3_poster_Epstein.pdf
+paper: 
+---
+Work done as a research assistant with <a href="https://me.stanford.edu/people/eric-darve">Eric Darve</a>. 
+Hamiltonian Monte Carlo improves upon standard MCMC when gradients of the probability distribution are available. However, for settings where the gradients are not available, such as for inverse modeling from physical simulations, these methods are not available. 
+We empirically show the efficiency of a new algorithm, Multi-Fidelity Hamiltonian Monte Carlo, based on a Neural Network surrogate model for the gradient.

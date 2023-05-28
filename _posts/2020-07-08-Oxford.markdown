@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "University of Oxford"
+image: /images/Oxford.png
+date:   2021-07-15 22:20:59 +00:00
+categories: Oxford
+type: coursework
+author: "Elliot Epstein"
+subtitle: "Courses Taken at Oxford"
+paper: 
+---
+- Stochastic Calculus
+- Financial Statistics
+- Advanced Monte Carlo Methods
+- Financial Derivatives
+- Quantitative Risk Management
+- Algorithmic Trading
+- Stochastic Control
+- Asset Pricing
+- Numerical Methods
+- Financial Computing in C++

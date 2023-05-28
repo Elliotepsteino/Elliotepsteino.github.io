@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "KTH Royal Institute of Technology" 
+date:   2020-08-29 22:20:59 +00:00
+image: /images/KTH.png
+categories: BS_in_Engineering_Physics
+author: "Elliot Epstein"
+type: coursework
+subtitle: ""
+paper: 
+---
+- Real Analysis
+- Complex Analysis
+- Quantum Mechanics
+- Algorithms and Data Structures
+- Probability and Statistics
