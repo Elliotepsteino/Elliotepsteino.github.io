@@ -3,19 +3,25 @@ layout: post
 title:  "Stanford University"
 image: /images/Stanford.png
 date:   2023-05-20 22:20:59 +00:00
+degree: Ph.D. in Computational and Mathematical Engineering
+city: Stanford
+country: United States
+date_start: "2021"
+date_end: "Present"
 categories: Stanford
+GPA: 4.18/4.3
 type: coursework
 author: "Elliot Epstein"
 subtitle: "Courses Taken at Stanford"
 paper: 
 ---
-- [EE 277](https://explorecourses.stanford.edu/search;jsessionid=1sasdxl9ebonjy8a05hhg9ian?q=EE+277%3a+Reinforcement+Learning%3a+Behaviors+and+Applications&view=catalog&filter-coursestatus-Active=on&academicYear=20222023): Reinforcement Learning
-- [CS 224N](https://web.stanford.edu/class/cs224n/): Natural Language Processing
-- [CS 107](http://web.stanford.edu/class/cs107/): Computer Organization and Systems
-- [CME 302](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CME+302%3A+Numerical+Linear+Algebra&collapse=): Numerical Linear Algebra 
-- [CME 303](http://virtualmath1.stanford.edu/~andras/220.html): Partial Differential Equations of Applied Math
-- [CME 305](https://web.stanford.edu/class/cme305/): Discrete Mathematics and Algorithms
-- [CME 307](https://web.stanford.edu/class/msande311/): Optimization
-- [CME 308](https://web.stanford.edu/class/cme308/): Stochastic Methods in Engineering
+- Reinforcement Learning: [EE 277](https://explorecourses.stanford.edu/search;jsessionid=1sasdxl9ebonjy8a05hhg9ian?q=EE+277%3a+Reinforcement+Learning%3a+Behaviors+and+Applications&view=catalog&filter-coursestatus-Active=on&academicYear=20222023) 
+- Natural Language Processing: [CS 224N](https://web.stanford.edu/class/cs224n/)
+- Computer Organization and Systems: [CS 107](http://web.stanford.edu/class/cs107/)
+- Numerical Linear Algebra: [CME 302](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CME+302%3A+Numerical+Linear+Algebra&collapse=)
+- Partial Differential Equations of Applied Math: [CME 303](http://virtualmath1.stanford.edu/~andras/220.html) 
+- Discrete Mathematics and Algorithms: [CME 305](https://web.stanford.edu/class/cme305/)
+- Optimization: [CME 307](https://web.stanford.edu/class/msande311/) 
+- Stochastic Methods in Engineering: [CME 308](https://web.stanford.edu/class/cme308/) 
 - [Adventures in Design Thinking: A d.school Experience](https://vpge.stanford.edu/resources/sgsi-2023-adventures-design-thinking-dschool-experience)
 - [Public Policy Negotiation: Multiparty Problem-solving and Conflict Resolution](https://vpge.stanford.edu/resources/sgsi-2023-public-policy-negotiation-multiparty-problem-solving-and-conflict-resolution)

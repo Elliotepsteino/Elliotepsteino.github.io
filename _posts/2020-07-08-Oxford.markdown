@@ -3,7 +3,11 @@ layout: post
 title:  "University of Oxford"
 image: /images/Oxford.png
 date:   2021-07-15 22:20:59 +00:00
-categories: Oxford
+date_start: "2020"
+date_end: "2021"
+city: Oxford
+country: "United Kingdom"
+degree: "MS in Mathematical and Computational Finance"
 type: coursework
 author: "Elliot Epstein"
 subtitle: "Courses Taken at Oxford"
@@ -19,3 +23,4 @@ paper:
 - Asset Pricing
 - Numerical Methods
 - Financial Computing in C++
+- Deep Learning

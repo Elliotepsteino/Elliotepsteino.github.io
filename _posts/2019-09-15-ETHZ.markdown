@@ -3,10 +3,15 @@ layout: post
 title:  "ETH Zurich"
 image: /images/ETH.png
 date:   2020-09-10 22:20:59 +00:00
+date_start: "2019"
+date_end: "2020"
+city: Zurich
+country: Switzerland
 categories: ETH_Zurich
 type: coursework
 author: "Elliot Epstein"
 subtitle: "Selected Courses Taken at ETH Zurich"
+degree: Exchange Student, Department of Mathematics
 paper: 
 ---
 - Probability Theory

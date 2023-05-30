@@ -14,9 +14,14 @@ The steps I took to create this website and how to create your own website in a 
 <br>
 <br>
 [**Simple Long Convolutions for Sequence Modeling**](https://hazyresearch.stanford.edu/blog/2023-02-15-long-convs) <br>
-*February 15, 2023* <br>
+*Feb. 15, 2023* <br>
 We study a new simple archtechture for sequence modeling based on long convolutions.
 <br>
+<!--
 <br>
-
-
+[**Test**](./blog_posts/test.html) <br>
+*Feb. 15, 2023* <br>
+Description...
+<br>
+<br>
+-->

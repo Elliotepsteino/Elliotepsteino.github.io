@@ -11,6 +11,7 @@ subtitle: "Simple Hardware-Efficient Long Convolutions for Sequence Modeling"
 arxiv: https://arxiv.org/abs/2302.06646
 code: https://github.com/Elliotepsteino/safari
 blog_post: https://hazyresearch.stanford.edu/blog/2023-02-15-long-convs
+type: research
 ---
 
-What is the simplest architecture you can use to get good performance on sequence modeling with subquadratic compute scaling in the sequence length? State space models (SSMs) have high performance on long sequence modeling but require sophisticated initialization techniques and specialized implementations for high quality and runtime performance. We study whether directly learning long convolutions over the sequence can can match SSMs in performance and efficiency. 
+What is the simplest architecture you can use to get good performance on sequence modeling with subquadratic compute scaling in the sequence length? State space models (SSMs) have high performance on long sequence modeling but require sophisticated initialization techniques and specialized implementations for high quality and runtime performance. This research studies whether directly learning long convolutions over the sequence can match SSMs in performance and efficiency. 

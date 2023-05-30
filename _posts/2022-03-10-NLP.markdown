@@ -8,7 +8,8 @@ author: "Elliot Epstein"
 subtitle: "Robust Domain Adaptation by Adversarial Training and Classification"
 paper: /pdfs/CS224N_Epstein.pdf
 course: "CS224N: Natural Language Processing"
+type: project
 ---
- Work with <a href="https://www.linkedin.com/in/nicolas-aagnes">Nicolas Ågnes</a>, we extend a method to train a question answering model on out of distribution data by new data augmentation techniques and add a classifier module to determine if a question is answerable or not.
+This project extended a method to train a question answering model on out of distribution data by new data augmentation techniques and added a classifier module to determine if a question was answerable or not.
+Work done in collaboration with <a href="https://www.linkedin.com/in/nicolas-aagnes">Nicolas Ågnes</a>.
 
-[CS224N Paper](/pdfs/CS224N_Epstein.pdf){:target="_blank"}

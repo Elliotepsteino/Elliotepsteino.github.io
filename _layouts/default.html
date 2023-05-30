@@ -43,17 +43,19 @@
               <h1>
                 Elliot Epstein
               </h1>
-              <p>I am a PhD student at the <a href="https://icme.stanford.edu/">Institute of Computational and Mathematical Engineering</a>, at <a href="https://www.stanford.edu/">Stanford University</a>, where I work on machine learning.
+              <p>I am a second year PhD student at the <a href="https://icme.stanford.edu/">Institute of Computational and Mathematical Engineering</a> 
+                at <a href="https://www.stanford.edu/">Stanford University</a>, working on machine learning.
               </p>
               <p>
-                At Stanford, I have been a research assistant with <a href="https://cs.stanford.edu/~chrismre/">Chris Ré</a>, working on long sequence modeling, and with <a href="https://profiles.stanford.edu/eric-darve">Eric Darve</a>, working on machine learning for PDEs and MCMC algorithms.
-                In addition, I am collaborating with <a href="https://profiles.stanford.edu/akshay-chaudhari"> Akshay Chaudhari</a> and <a href="https://giesecke.people.stanford.edu/"> Kay Giesecke</a>. 
-                I have also been a teaching assistant for <a href="https://cs229.stanford.edu/">CS 229 - Machine Learning</a> as well as <a href="https://web.stanford.edu/class/math220/index.html">MATH 220 - Partial Differential Equations of Applied Mathematics</a>.
-                This summer, I will be doing a software engineering internship at Google Cloud.
+                At Stanford, I have done research on long sequence models with <a href="https://cs.stanford.edu/~chrismre/">Chris Ré</a>, and I have worked on machine learning for PDEs and MCMC algorithms supervised by <a href="https://profiles.stanford.edu/eric-darve">Eric Darve</a>.
+                I am working on applying long sequence models in medicine with <a href="https://profiles.stanford.edu/akshay-chaudhari"> Akshay Chaudhari</a>.
+                I have also been a teaching assistant in Machine Learning:  <a href="https://cs229.stanford.edu/">CS 229</a> as well as Partial Differential Equations: <a href="https://web.stanford.edu/class/math220/index.html">MATH 220</a>.
+                This summer, I will be doing a software engineering internship at Google.
               </p>
               <p>
-                I have an MS in Matheamtical and Computational Finance from <a href="https://www.ox.ac.uk/">University of Oxford</a>. My master dissertation was done as part of a 6-month internship at the quant desk at EDF Trading, where I used machine learning to forecast intraday asset prices.
-                I have a BS in Engineering Physics from <a href="https://www.kth.se/en">KTH Royal Institute of Technology</a>, during which I spent one year at the Mathematics Department of <a href="https://ethz.ch/en.html">ETH Zurich</a>. I wrote my bachelor's thesis on deep learning theory with Arnulf Jentzen at ETH Zurich.
+                At <a href="https://www.ox.ac.uk/">University of Oxford</a>, I obtained an MS in Mathematical and Computational Finance. My master dissertation was done as part of a 6-month internship at the quant desk at EDF Trading, where I used machine learning to forecast intraday asset prices.
+                I have a BS in Engineering Physics from <a href="https://www.kth.se/en">KTH Royal Institute of Technology</a>, during which I spent one year at the Mathematics Department of <a href="https://ethz.ch/en.html">ETH Zurich</a>. 
+                At ETH Zurich, my bachelor's thesis was written on deep learning theory with <a href="http://www.ajentzen.de/">Arnulf Jentzen</a>.
               </p>
               <p style="text-align:center">
                 <a href="#" onclick="replaceText()">Email</a> &nbsp;/&nbsp;
@@ -74,7 +76,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in sequence modeling, machine learning, optimization, and stochastics.
+                Research interests: Sequence modeling, machine learning, statistics, and stochastics, with applications in medicine and finance.
               </p>
             </td>
           </tr>
@@ -138,7 +140,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'EDF_Trading' %}
+          {% if post.type=='internship' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -148,7 +150,7 @@
               <br>
               <em>{{post.categories | first | replace: '_', ' '}} {{post.course}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{ post.date_start}} &mdash; {{ post.date_end}}
 
               <br>
               {% if post.website %}
@@ -205,7 +207,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'EDF_Trading' and post.type!='coursework' and post.type!='blog'%}
+          {% if post.type=='project'%}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -215,9 +217,9 @@
               <br>
               <em>{{post.categories | first | replace: '_', ' '}} {{post.course}}</em>
               <br>
-              {% if post.date %}
-              {{ post.date | date: "%Y-%m-%d" }}
-              {% endif %}
+              <!-- {{ post.date | date: "%Y-%m-%d" }} -->
+              {{ post.date | date: "%b. %Y"  }}
+
               <br>
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
@@ -264,8 +266,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Courses</h2>
-              <p> Selected courses I have taken.
+              <h2>Education</h2>
+              <p> 
               </p>
             </td>
           </tr>
@@ -281,36 +283,26 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <i>{{post.degree}} </i> 
+              <br>
+              
+              
+              {% if post.city %}
+              {% if post.country %}
+              {{post.city}}, {{post.country}}
+              <br>
               {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
               {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              {% if post.date_start %}
+              {% if post.date_end %}
+              {{ post.date_start}} &mdash; {{ post.date_end}}
+              <br>
               {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
               {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
+              {% if post.GPA %}
+              GPA : {{post.GPA}}
+              {% endif %} 
+              
               <p></p>
               {{ post.excerpt }}
             </td>

@@ -1,5 +1,5 @@
 _site
-_blog_posts
+blog_posts
 .DS_Store
 .jekyll
 .jekyll-metadata

@@ -8,6 +8,7 @@ author: "Elliot Epstein"
 subtitle: "Value Iteration for Markov Decision Processes"
 paper: 
 course: "CME 307: Optimization"
+type: project
 ---
-We formulate an MDP problem as a linear program, and prove a contraction result.
-We then implement extensions of value and policy iteration and analyse the convergence rate, and empirically verify our finding on a simple tic-tac-toe implementation.
+This project formulated an MDP problem as a linear program, a contraction result was proved.
+Extensions of value and policy iteration were implemented and the convergence rate was analyzed, and the findings were empirically verifyed on a simple tic-tac-toe implementation.
