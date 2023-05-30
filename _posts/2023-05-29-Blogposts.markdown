@@ -15,7 +15,7 @@ The steps I took to create this website and how to create your own website in a 
 <br>
 [**Simple Long Convolutions for Sequence Modeling**](https://hazyresearch.stanford.edu/blog/2023-02-15-long-convs) <br>
 *Feb. 15, 2023* <br>
-We study a new simple archtechture for sequence modeling based on long convolutions.
+What is the most simple archtechture with a sub-quadratic scaling in the sequence length that does well on a range sequence modeling tasks?
 <br>
 <!--
 <br>
