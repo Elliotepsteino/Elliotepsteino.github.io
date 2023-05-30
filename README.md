@@ -1,4 +1,4 @@
-# Creating a personal website using Jekyll and Github Pages
+# Creating your own personal website using Jekyll and Github Pages
 
 This meant as an end-to-end guide for the steps I took to create a [personal website](https://elliotepsteino.github.io/) using **Jekyll** and **Github Pages**, with the design source code based on an existing repo by [Leonid Keselman](https://github.com/leonidk). 
 
