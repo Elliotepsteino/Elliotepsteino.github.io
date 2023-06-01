@@ -113,9 +113,9 @@ elliotepstein.net.	3600	IN	A	185.199.109.153
 ```
  
 
-You will also need to update your settings on GitHub using steps 1-4 under 'configuring an apex domain' [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), a screenshot is pasted below: 
+You will also need to update your settings on GitHub using steps 1-4 under 'configuring an apex domain' [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), a screenshot is pasted below: <br>
 <img src="./images/pages.png" alt="GitHub Pages" width="600" height="400">
-
+<br>
 
 
 
