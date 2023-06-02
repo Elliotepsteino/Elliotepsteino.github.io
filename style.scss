@@ -9,6 +9,53 @@
 //@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
+
+.tabs-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* white background */
+  padding: 7px;
+  z-index: 999;
+  text-align: center; /* Center align the tabs */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Faint gray line below the tabs */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center align the tabs horizontally */
+}
+
+.tabs {
+  display: inline-block;
+  margin: 0 auto; /* Center align the tabs container */
+  list-style-type: none;
+  padding: 0;
+}
+
+.tabs li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.tabs li a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.tabs li a:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 50px; /* Adjust as needed to account for fixed elements, e.g., header */
+  margin-top: -50px; /* Negative margin to bring the heading into view */
+}
 /**************/
 /* BASE RULES */
 /**************/

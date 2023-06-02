@@ -8,7 +8,7 @@ author: "Elliot Epstein"
 subtitle: "Blog Posts"
 paper: 
 ---
-[**Creating your own personal website using Jekyll and Github Pages**](https://github.com/Elliotepsteino/Elliotepsteino.github.io) <br>
+[**Creating Your Own Personal Website: A step-by-step guide using Jekyll and Github Pages**](https://github.com/Elliotepsteino/Elliotepsteino.github.io) <br>
 *May 29, 2023* <br>
 The steps I took to create this website and how to create your own website in a similar style.
 <br>
