@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Machine Learning (CS 229)"
+image: /images/Stanford.png
+date:   2023-05-20 22:20:59 +00:00
+city: Stanford
+country: United States
+date_start: "Summer 2022"
+categories: Stanford
+type: teaching
+author: "Elliot Epstein"
+website: "https://cs229.stanford.edu/" 
+---
+
+Topics include: Supervised learning (deep learning), unsupervised learning, and reinforcement learning.

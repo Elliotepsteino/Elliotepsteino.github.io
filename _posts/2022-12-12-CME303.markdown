@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Partial Differential Equations of Applied Math (MATH 220)"
+image: /images/Stanford.png
+date:   2023-05-20 22:20:59 +00:00
+degree: Ph.D. in Computational and Mathematical Engineering
+city: Stanford
+country: United States
+date_start: "Fall 2022" 
+categories: Stanford
+type: teaching
+author: "Elliot Epstein"
+website: "http://web.stanford.edu/~andras/220.html"
+---
+A graduate class on partial differential equations.

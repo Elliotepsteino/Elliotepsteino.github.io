@@ -47,6 +47,7 @@
             <li><a href="#Internships">Internships</a></li>
             <li><a href="#Other Projects">Other Projects</a></li>
             <li><a href="#Education">Education</a></li>
+            <li><a href="#Teaching">Teaching</a></li>
             <li><a href="#Blog">Blog</a></li>
           </ul>
         </div>
@@ -60,19 +61,18 @@
                 Elliot Epstein
               </h1>
               <p>I am a second year PhD student at the <a href="https://icme.stanford.edu/">Institute of Computational and Mathematical Engineering</a> 
-                at <a href="https://www.stanford.edu/">Stanford University</a>, working on machine learning.
+                at <a href="https://www.stanford.edu/">Stanford University</a>.
               </p>
               <p>
                 At Stanford, I have done research on long sequence models with <a href="https://cs.stanford.edu/~chrismre/">Chris Ré</a>, and I have worked on machine learning for PDEs and MCMC algorithms supervised by <a href="https://profiles.stanford.edu/eric-darve">Eric Darve</a>.
                 I am working on applying long sequence models in medicine with <a href="https://profiles.stanford.edu/akshay-chaudhari"> Akshay Chaudhari</a>.
-                I have also been a teaching assistant in Machine Learning:  <a href="https://cs229.stanford.edu/">CS 229</a> as well as Partial Differential Equations: <a href="https://web.stanford.edu/class/math220/index.html">MATH 220</a>.
-                This summer, I will be doing a software engineering internship at Google.
               </p>
               <p>
                 At <a href="https://www.ox.ac.uk/">University of Oxford</a>, I obtained an MS in Mathematical and Computational Finance. My master dissertation was done as part of a 6-month internship at the quant desk at EDF Trading, where I used machine learning to forecast intraday asset prices.
                 I have a BS in Engineering Physics from <a href="https://www.kth.se/en">KTH Royal Institute of Technology</a>, during which I spent one year at the Mathematics Department of <a href="https://ethz.ch/en.html">ETH Zurich</a>. 
-                At ETH Zurich, my bachelor's thesis was written on deep learning theory with <a href="http://www.ajentzen.de/">Arnulf Jentzen</a>.
               </p>
+
+              <p>This summer, I will be doing a software engineering internship at Google.</p>
               <p style="text-align:center">
                 <a href="#" onclick="replaceText()">Email</a> &nbsp;/&nbsp;
                 <a href="{{ site.url }}/pdfs/Elliot_Epstein.pdf">CV</a> &nbsp;/&nbsp;
@@ -318,6 +318,51 @@
               {% if post.GPA %}
               GPA : {{post.GPA}}
               {% endif %} 
+              
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2 id="Teaching">Teaching</h2>
+              <p> 
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% if post.type=='teaching'%}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              
+              <br>
+              {% if post.city %}
+              {% if post.country %}
+              {{post.city}}, {{post.country}}
+              <br>
+              {% endif %}
+              {% endif %}
+              {% if post.date_start %}
+              {{ post.date_start}} 
+              <br>
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
               
               <p></p>
               {{ post.excerpt }}
