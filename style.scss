@@ -53,8 +53,8 @@
 :target::before {
   content: "";
   display: block;
-  height: 50px; /* Adjust as needed to account for fixed elements, e.g., header */
-  margin-top: -50px; /* Negative margin to bring the heading into view */
+  height: 100px; /* Adjust as needed to account for fixed elements, e.g., header */
+  margin-top: -100px; /* Negative margin to bring the heading into view */
 }
 /**************/
 /* BASE RULES */
