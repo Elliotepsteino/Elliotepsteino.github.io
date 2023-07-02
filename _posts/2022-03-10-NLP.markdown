@@ -6,7 +6,6 @@ image: /images/CS224N.png
 categories: Stanford
 author: "Elliot Epstein"
 subtitle: "Robust Domain Adaptation by Adversarial Training and Classification"
-paper: /pdfs/CS224N_Epstein.pdf
 course: "CS224N: Natural Language Processing"
 type: project
 ---
