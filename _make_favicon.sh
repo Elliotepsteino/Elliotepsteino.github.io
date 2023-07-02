@@ -1,1 +1,1 @@
-convert -background transparent "images/ElliotEpstein.JPEG" -define icon:auto-resize=16,24,32,48,64,72,96,128,256 "favicon.ico"
+convert -background transparent "images/ElliotEpstein.JPEG" -define icon:auto-resize=48,96,144,192 "favicon.ico"
