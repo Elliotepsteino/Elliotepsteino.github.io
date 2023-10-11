@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Student Researcher"
+date_start:   Sep. 2023
+date_end: Present
+image: /images/Google.png
+categories: Google
+author: "Elliot Epstein"
+subtitle: "Student Researcher"
+type: internship
+---

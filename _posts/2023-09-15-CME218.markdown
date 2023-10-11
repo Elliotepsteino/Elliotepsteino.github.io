@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Applied Data Science (CME 218)"
+image: /images/Stanford.png
+date:   2023-05-20 22:20:59 +00:00
+city: Stanford
+country: United States
+date_start: "Fall 2023"
+categories: Stanford
+type: teaching
+author: "Elliot Epstein"
+---
+
+Mentoring Stanford graduate students working on machine learning projects.
