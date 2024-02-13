@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Student Researcher"
-date_start:   Sep. 2023
-date_end: Present
+date_start:   Oct. 2023
+date_end: Jan. 2024
 image: /images/Google.png
 categories: Google
 author: "Elliot Epstein"
 subtitle: "Student Researcher"
 type: internship
 ---
+Worked on an LLM based chatbot.

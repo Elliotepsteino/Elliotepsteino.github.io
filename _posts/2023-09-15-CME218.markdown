@@ -7,7 +7,7 @@ city: Stanford
 country: United States
 date_start: "Fall 2023"
 categories: Stanford
-type: teaching
+type: other
 author: "Elliot Epstein"
 ---
 
