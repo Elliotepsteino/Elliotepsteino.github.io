@@ -11,4 +11,4 @@ course: "CME 307: Optimization"
 type: project
 ---
 This project formulated an MDP problem as a linear program, a contraction result was proved.
-Extensions of value and policy iteration were implemented and the convergence rate was analyzed, and the findings were empirically verifyed on a simple tic-tac-toe implementation.
+Extensions of value and policy iteration were implemented and the convergence rate was analyzed, and the findings were empirically verified on a simple tic-tac-toe implementation.

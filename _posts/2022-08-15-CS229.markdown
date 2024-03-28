@@ -10,7 +10,7 @@ type: teaching
 author: "Elliot Epstein"
 ---
 - **Financial Risk Analytics:** [MS&E 246](https://explorecourses.stanford.edu/search?q=MS%26E+246%3a+Financial+Risk+Analytics&view=catalog&filter-coursestatus-Active=on&academicYear=20232024)  (Winter 2024)
-- **CME 218: Applied Data Science:** [CME 218](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=cme+218&collapse=)     (Fall 2023) <br>
+- **Applied Data Science:** [CME 218](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=cme+218&collapse=)     (Fall 2023) <br>
 Mentoring Stanford graduate students working on machine learning projects.
 - **Partial Differential Equations:** [CME 303](http://web.stanford.edu/~andras/220.html) (Fall 2022) <br>
 A graduate class on partial differential equations.
