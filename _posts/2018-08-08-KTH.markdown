@@ -14,8 +14,3 @@ type: coursework
 subtitle: ""
 paper: 
 ---
-- Real Analysis
-- Complex Analysis
-- Quantum Mechanics
-- Algorithms and Data Structures
-- Probability and Statistics

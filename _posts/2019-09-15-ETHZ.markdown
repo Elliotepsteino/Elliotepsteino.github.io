@@ -14,8 +14,3 @@ subtitle: "Selected Courses Taken at ETH Zurich"
 degree: Exchange Student, Department of Mathematics
 paper: 
 ---
-- Probability Theory
-- Programming Techniques for Scientific Simulations
-- Electrodynamics
-- Mathematical Foundations for Finance
-- Geophysical Fluid Dynamics
