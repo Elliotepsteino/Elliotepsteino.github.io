@@ -20,3 +20,5 @@ CME 218: Applied Data Science (Fall 2023)
 
 MS&E 246: Financial Risk Analytics (Winter 2024)
 
+MS&E 245B: Advanced Investment Science
+

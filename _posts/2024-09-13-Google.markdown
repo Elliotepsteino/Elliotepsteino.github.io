@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "PhD Software Engineering Intern"
+date_start:   Jun. 2023
+date_end: Sep. 2023
+image: /images/Google.png
+categories: Google
+author: "Elliot Epstein"
+subtitle: "PhD Software Engineering Intern"
+type: internship
+---
+
+Outcome: Research paper “MMMT-IF: A Challenging Multimodal Multi-Turn Instruction Following Benchmark”

@@ -30,3 +30,4 @@ paper:
 - [Adventures in Design Thinking: A d.school Experience](https://vpge.stanford.edu/resources/sgsi-2023-adventures-design-thinking-dschool-experience)
 - [Public Policy Negotiation: Multiparty Problem-solving and Conflict Resolution](https://vpge.stanford.edu/resources/sgsi-2023-public-policy-negotiation-multiparty-problem-solving-and-conflict-resolution)
 - [Stanford Ignite](https://www.gsb.stanford.edu/programs/stanford-ignite)
+- [Launchpad](https://www.launchpad.stanford.edu/)
