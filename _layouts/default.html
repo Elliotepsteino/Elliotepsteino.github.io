@@ -159,9 +159,10 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if post.type=='internship' %}
+
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="/tn{{post.image}}" alt="" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -203,6 +204,66 @@
               {% endif %}
               <p></p>
               {{ post.excerpt }}
+
+              {% if post.title2 %}
+                <h3>{{post.title2}}</h3>
+                <br>
+                {% if post.categories2 %}
+                  <em>{{post.categories2 | first | replace: '_', ' '}} {{post.course2}}</em>
+                {% endif %}
+                <br>
+                {{ post.date_start2}} &mdash; {{ post.date_end2}}
+
+                <br>
+                {% if post.website2 %}
+                <a href="{{post.website}}">website</a> /
+                {% endif %}
+                {% if post.paper2 %}
+                <a href="{{post.paper}}">paper</a> /
+                {% endif %}
+                {% if post.patent2 %}
+                <a href="{{post.code}}">code</a> /
+                {% endif %}
+                {% if post.poster2 %}
+                <a href="{{post.poster}}">poster</a> /
+                {% endif %}
+                {% if post.slides2 %}
+                <a href="{{post.slides}}">slides</a> /
+                {% endif %}
+                <p></p>
+                {{ post.text2 }}
+                <br>
+                <br>
+              {% endif}
+              
+              {% if post.title=="PhD Software Engineering Intern" %}
+                <h3>{{post.title3}}</h3>
+                <br>
+                {% if post.categories3  %}
+                  <em>{{post.categories3 | first | replace: '_', ' '}} {{post.course3}}</em>
+                <br>
+                {{ post.date_start3}} &mdash; {{ post.date_end3}}
+                {% endif %}
+                <br>
+                {% if post.website3 %}
+                <a href="{{post.website}}">website</a> /
+                {% endif %}
+                {% if post.paper3 %}
+                <a href="{{post.paper}}">paper</a> /
+                {% endif %}
+                {% if post.patent3 %}
+                <a href="{{post.code}}">code</a> /
+                {% endif %}
+                {% if post.poster3 %}
+                <a href="{{post.poster}}">poster</a> /
+                {% endif %}
+                {% if post.slides3 %}
+                <a href="{{post.slides}}">slides</a> /
+                {% endif %}
+                <p></p>
+                {{ post.text3 }}
+              {% endif}
+
             </td>
           </tr>
           {% endif %}

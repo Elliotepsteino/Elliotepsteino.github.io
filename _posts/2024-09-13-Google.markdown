@@ -1,10 +1,20 @@
 ---
 layout: post
 title:  "PhD Software Engineering Intern"
-date_start:   Jun. 2023
-date_end: Sep. 2023
+title2: "Student Researcher"
+title3: "Software Engineering Intern"
+date_start:   Jun. 2024
+date_start2: Oct. 2023
+date_start3: Jun. 2023
+date_end: Sep. 2024
+date_end2: Jan. 2024
+date_end3: Sep. 2023
+text2: Worked on an LLM based chatbot.
+text3: ""
 image: /images/Google.png
 categories: Google
+categories2: Google
+categories3: Google
 author: "Elliot Epstein"
 subtitle: "PhD Software Engineering Intern"
 type: internship
