@@ -9,6 +9,7 @@ categories: Stanford
 type: teaching
 author: "Elliot Epstein"
 ---
+- **Investment Science:** [MS&E 245A](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=20242025&q=MS%26E+245%3A+Investment+Science&collapse=)  (Fall 2024)
 - **Advanced Investment Science:** [MS&E 245B](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=MS%26E+245B%3A+Advanced+Investment+Science&collapse=)  (Spring 2024)
 - **Financial Risk Analytics:** [MS&E 246](https://explorecourses.stanford.edu/search?q=MS%26E+246%3a+Financial+Risk+Analytics&view=catalog&filter-coursestatus-Active=on&academicYear=20232024)  (Winter 2024)
 - **Applied Data Science:** [CME 218](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=cme+218&collapse=)     (Fall 2023) <br>

@@ -8,6 +8,11 @@ author: "Elliot Epstein"
 subtitle: "Blog Posts"
 paper: 
 ---
+[**Ironman Italy 2024 - Race Report**](./blog_posts/ironman.html) <br>
+*Sep. 29, 2024* <br>
+Training and race day report.
+<br>
+<br>
 [**Atop Chimborazo: A Journey to 20,600 Feet - Trip Report**](./blog_posts/chimborazo.html) <br>
 *Jan. 15, 2024* <br>
 The peak of Chimborazo is the furthest point from the center of the earth. 

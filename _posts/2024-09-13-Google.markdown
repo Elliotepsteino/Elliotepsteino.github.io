@@ -9,8 +9,8 @@ date_start3: Jun. 2023
 date_end: Sep. 2024
 date_end2: Jan. 2024
 date_end3: Sep. 2023
-text2: Worked on an LLM based chatbot.
-text3: ""
+text2: Worked on an LLM based dialogue system.
+text3: Worked on an LLM based dialogue system.
 image: /images/Google.png
 categories: Google
 categories2: Google
@@ -19,5 +19,5 @@ author: "Elliot Epstein"
 subtitle: "PhD Software Engineering Intern"
 type: internship
 ---
-
+Intern in the Gemini Team. 
 Outcome: Research paper “MMMT-IF: A Challenging Multimodal Multi-Turn Instruction Following Benchmark”

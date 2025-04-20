@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Score-Debiased Kernel Density Estimation"
+date:   2025-02-10 22:21:59 +00:00
+image: /images/scaling_experiment_mise.png
+categories: research
+author: "Elliot Epstein"
+venue: "FPI@ICLR"
+authors: "<strong>Elliot L. Epstein*</strong>, Rajat Vadiraj Dwaraknath*, Thanawat Sornwanee*, John Winnicki, Jerry Weihong Liu"
+subtitle: "Score-Debiased Kernel Density Estimation"
+type: research
+---

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "MMMT-IF: A Challenging Multimodal Multi-Turn Instruction Following Benchmark"
+date:   2024-12-20 22:21:59 +00:00
+image: /images/MMMT-IF-banner.png
+categories: research
+author: "Elliot Epstein"
+venue: "SFLLM@NeurIPS"
+authors: "<strong>Elliot L. Epstein</strong>, Kaisheng Yao, Jing Li, Shoshana Bai, Hamid Palangi"
+subtitle: "MMMT-IF: A Challenging Multimodal Multi-Turn Instruction Following Benchmark"
+arxiv: https://arxiv.org/abs/2409.18216
+type: research
+---
+Research done during my 2024 internship on the Gemini Team at Google.
