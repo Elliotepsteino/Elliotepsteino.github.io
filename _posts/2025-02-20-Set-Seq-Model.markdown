@@ -8,6 +8,7 @@ author: "Elliot Epstein"
 venue: "FinAI@ICLR"
 authors: "<strong>Elliot L. Epstein</strong>, Apaar Sadhwani, Kay Giesecke"
 subtitle: "A Set-Sequence Model for Time Series"
+arxiv: https://arxiv.org/abs/2505.11243
 type: research
 ---
  

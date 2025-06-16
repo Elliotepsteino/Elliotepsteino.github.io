@@ -8,5 +8,6 @@ author: "Elliot Epstein"
 venue: "FPI@ICLR"
 authors: "<strong>Elliot L. Epstein*</strong>, Rajat Vadiraj Dwaraknath*, Thanawat Sornwanee*, John Winnicki, Jerry Weihong Liu"
 subtitle: "Score-Debiased Kernel Density Estimation"
+arxiv: https://arxiv.org/pdf/2504.19084
 type: research
 ---
