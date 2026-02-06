@@ -5,9 +5,10 @@ date:   2025-02-10 22:21:59 +00:00
 image: /images/scaling_experiment_mise.png
 categories: research
 author: "Elliot Epstein"
-venue: "FPI@ICLR"
-authors: "<strong>Elliot L. Epstein*</strong>, Rajat Vadiraj Dwaraknath*, Thanawat Sornwanee*, John Winnicki, Jerry Weihong Liu"
+venue: "NeurIPS"
+authors: "<strong>Elliot L. Epstein*</strong>, Rajat Vadiraj Dwaraknath*, Thanawat Sornwanee*, John Winnicki*, Jerry Weihong Liu*"
 subtitle: "Score-Debiased Kernel Density Estimation"
 arxiv: https://arxiv.org/pdf/2504.19084
+slides: /pdfs/SD-KDE.pdf
 type: research
 ---

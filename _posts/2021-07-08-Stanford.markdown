@@ -9,7 +9,7 @@ country: United States
 date_start: "2021"
 date_end: "Present"
 categories: Stanford
-GPA: 4.16/4.3
+GPA: 4.10/4.3
 type: coursework
 author: "Elliot Epstein"
 subtitle: "Courses Taken at Stanford"
