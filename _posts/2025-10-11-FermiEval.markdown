@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LLMs are Overconfident: Evaluating Confidence Interval Calibration with FermiEval"
-date:   2025-09-02 22:21:59 +00:00
+date:   2026-01-02 22:21:59 +00:00
 image: /images/fermi-eval.png
 categories: research
 author: "Elliot Epstein"
